@@ -37,4 +37,4 @@ const bookSchema = new Schema(
   }
 );
 
-export default model('book', bookSchema);
+export default model('Book', bookSchema);

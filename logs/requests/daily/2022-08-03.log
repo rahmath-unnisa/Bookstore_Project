@@ -1,0 +1,14 @@
+info: ::1 - - [03/Aug/2022:03:48:33 +0000] "PUT /api/v1/cart/addToCart HTTP/1.1" 500 205 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:50:40 +0000] "PUT /api/v1/cart/%0A6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:50:49 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:52:35 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:52:47 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:53:53 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [03/Aug/2022:04:16:27 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+

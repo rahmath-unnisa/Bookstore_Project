@@ -1,0 +1,8 @@
+info: ::1 - - [12/Aug/2022:02:31:50 +0000] "POST /api/v1/customer HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:13 +0000] "POST /api/v1/customer HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:23 +0000] "POST /api/v1/customer HTTP/1.1" 500 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:34 +0000] "POST /api/v1/customer HTTP/1.1" 201 349 "-" "PostmanRuntime/7.29.2"
+

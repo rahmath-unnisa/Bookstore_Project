@@ -214,3 +214,155 @@ TypeError: Router.use() requires a middleware function but got a Object
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon Aug 01 2022 08:24:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":345594},"process":{"argv":["node","C:\\Users\\cparadise\\BookStore\\bookStore\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19238434,"external":25377922,"heapTotal":79712256,"heapUsed":55143160,"rss":113537024},"pid":10608,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js:36:10)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-01T02:54:07.535Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js","function":"routes","line":36,"method":null,"native":false},{"column":32,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T03:00:52.947Z"}
 info: Connected to the database. {"timestamp":"2022-08-01T03:00:53.002Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\cparadise\BookStore\bookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\cparadise\BookStore\bookStore\src\routes\/index.js:38:10)
+    at Object.<anonymous> (C:\Users\cparadise\BookStore\bookStore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\cparadise\BookStore\bookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\cparadise\BookStore\bookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 03 2022 09:14:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":521441},"process":{"argv":["node","C:\\Users\\cparadise\\BookStore\\bookStore\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18809501,"external":23429687,"heapTotal":87109632,"heapUsed":61090304,"rss":120844288},"pid":7848,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js:38:10)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-08-03T03:44:53.218Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js","function":"routes","line":38,"method":null,"native":false},{"column":32,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T03:46:03.865Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:46:03.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T03:47:22.858Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:47:23.004Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: undefined,
+  UserID: { email: 'zara23@gmail.com', password: '12345' }
+}" (type Object) at path "_id" for model "cart"
+    at model.Query.exec (C:\Users\cparadise\BookStore\bookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\BookStore\bookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/addToCart 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-03T03:48:33.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T03:53:24.331Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:53:24.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T03:53:41.607Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:53:41.666Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cart_Total is not defined
+    at _callee$ (C:\Users\cparadise\BookStore\bookStore\src\services\/cart.service.js:23:1)
+    at tryCatch (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584/addToCart 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-03T03:53:53.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T04:14:47.283Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T04:14:47.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T04:15:49.188Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T04:15:49.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T04:16:27.110Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\cparadise\BookStore\bookStore\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\Users\cparadise\BookStore\bookStore\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\BookStore\bookStore\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Aug 03 2022 09:46:27 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":523335},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18741605,"external":19735844,"heapTotal":99532800,"heapUsed":48950904,"rss":129175552},"pid":15292,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-08-03T04:16:27.311Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T14:26:04.955Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:26:05.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T14:27:23.284Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:27:23.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T01:22:06.972Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T01:22:07.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T02:02:56.578Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T02:02:56.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T02:12:27.468Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T02:12:27.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T02:16:13.538Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T02:16:13.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T02:21:45.196Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T02:21:45.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T02:30:51.857Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T02:30:51.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T02:34:52.799Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:34:53.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T02:42:38.825Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:42:39.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T02:44:17.220Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:44:17.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T02:56:08.695Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:56:08.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:00:15.024Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:00:15.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:00:53.788Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:00:53.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:01:18.752Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:01:18.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:01:56.681Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:01:56.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:03:10.373Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:03:10.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:04:38.807Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:04:38.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:06:16.513Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:06:16.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:07:51.770Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:07:51.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:08:44.773Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:08:44.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T01:57:43.914Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T01:57:43.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:00:00.068Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:00:00.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:01:45.352Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:01:45.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:07:12.761Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:07:12.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:08:32.111Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:08:32.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:09:39.492Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:09:39.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:09:54.375Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:09:54.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:10:10.807Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:10:10.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:10:34.061Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:10:34.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:15:32.159Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:15:32.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-12T02:26:25.414Z"}
+info: Connected to the database. {"timestamp":"2022-08-12T02:26:25.457Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Name" is required 
+    url - /api/v1/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-12T02:31:50.087Z"}
+error: 
+    status - 500 
+    message - ValidationError: "PhoneNumber" must be a string 
+    url - /api/v1/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-12T02:32:13.319Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Pincode" must be a string 
+    url - /api/v1/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-12T02:32:23.886Z"}

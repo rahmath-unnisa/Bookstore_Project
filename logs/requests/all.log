@@ -146,3 +146,92 @@ info: ::1 - - [01/Aug/2022:03:04:45 +0000] "GET /api/v1/books/6214803b05253301a4
 
 info: ::1 - - [01/Aug/2022:03:25:16 +0000] "GET /api/v1/books/6215178d05253301a4fda5c4 HTTP/1.1" 200 391 "-" "PostmanRuntime/7.29.2"
 
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\cparadise\BookStore\bookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\cparadise\BookStore\bookStore\src\routes\/index.js:38:10)
+    at Object.<anonymous> (C:\Users\cparadise\BookStore\bookStore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\cparadise\BookStore\bookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\cparadise\BookStore\bookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\cparadise\BookStore\bookStore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Wed Aug 03 2022 09:14:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":521441},"process":{"argv":["node","C:\\Users\\cparadise\\BookStore\\bookStore\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18821379,"external":23441605,"heapTotal":87109632,"heapUsed":61194880,"rss":121413632},"pid":7848,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js:38:10)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","trace":[{"column":13,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\routes\\/index.js","function":"routes","line":38,"method":null,"native":false},{"column":32,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: ::1 - - [03/Aug/2022:03:48:33 +0000] "PUT /api/v1/cart/addToCart HTTP/1.1" 500 205 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:50:40 +0000] "PUT /api/v1/cart/%0A6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:50:49 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:52:35 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:52:47 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:03:53:53 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/addToCart HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [03/Aug/2022:04:16:27 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\cparadise\BookStore\bookStore\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\Users\cparadise\BookStore\bookStore\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\BookStore\bookStore\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Aug 03 2022 09:46:27 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":523335},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18749821,"external":19744100,"heapTotal":99532800,"heapUsed":49048400,"rss":129736704},"pid":15292,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\BookStore\\bookStore\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [07/Aug/2022:14:46:41 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:02:44:30 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:02:58:33 +0000] "POST /api/v1//wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 43 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:02:59:15 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 70 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:00:22 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:00:59 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:01:25 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:02:00 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 370 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:02:40 +0000] "PUT /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:03:15 +0000] "PUT /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 200 159 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:03:59 +0000] "GET /api/v1/cart HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:04:40 +0000] "GET /api/v1/cart HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:04:48 +0000] "GET /api/v1/cart/ HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:06:20 +0000] "GET /api/v1/cart/ HTTP/1.1" 400 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:06:53 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:07:57 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 84 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:08:48 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:09:03 +0000] "GET /api/v1/cart/ HTTP/1.1" 400 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:18:11 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 201 1501 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:03:18:39 +0000] "PUT /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 1331 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:31:50 +0000] "POST /api/v1/customer HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:13 +0000] "POST /api/v1/customer HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:23 +0000] "POST /api/v1/customer HTTP/1.1" 500 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [12/Aug/2022:02:32:34 +0000] "POST /api/v1/customer HTTP/1.1" 201 349 "-" "PostmanRuntime/7.29.2"
+
